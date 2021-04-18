@@ -1,0 +1,13 @@
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\bin\Debug\netcoreapp3.1\Bin2Dec_Convert.exe
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\bin\Debug\netcoreapp3.1\Bin2Dec_Convert.deps.json
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\bin\Debug\netcoreapp3.1\Bin2Dec_Convert.runtimeconfig.json
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\bin\Debug\netcoreapp3.1\Bin2Dec_Convert.runtimeconfig.dev.json
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\bin\Debug\netcoreapp3.1\Bin2Dec_Convert.dll
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\bin\Debug\netcoreapp3.1\Bin2Dec_Convert.pdb
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\obj\Debug\netcoreapp3.1\Bin2Dec_Convert.csprojAssemblyReference.cache
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\obj\Debug\netcoreapp3.1\Bin2Dec_Convert.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\obj\Debug\netcoreapp3.1\Bin2Dec_Convert.AssemblyInfo.cs
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\obj\Debug\netcoreapp3.1\Bin2Dec_Convert.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\obj\Debug\netcoreapp3.1\Bin2Dec_Convert.dll
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\obj\Debug\netcoreapp3.1\Bin2Dec_Convert.pdb
+C:\Users\marce\source\repos\Bin2Dec_Convert\Bin2Dec_Convert\obj\Debug\netcoreapp3.1\Bin2Dec_Convert.genruntimeconfig.cache
