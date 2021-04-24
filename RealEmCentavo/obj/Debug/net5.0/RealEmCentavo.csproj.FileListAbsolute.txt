@@ -1,0 +1,16 @@
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\bin\Debug\net5.0\RealEmCentavo.exe
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\bin\Debug\net5.0\RealEmCentavo.deps.json
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\bin\Debug\net5.0\RealEmCentavo.runtimeconfig.json
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\bin\Debug\net5.0\RealEmCentavo.runtimeconfig.dev.json
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\bin\Debug\net5.0\RealEmCentavo.dll
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\bin\Debug\net5.0\ref\RealEmCentavo.dll
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\bin\Debug\net5.0\RealEmCentavo.pdb
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.csprojAssemblyReference.cache
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.AssemblyInfoInputs.cache
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.AssemblyInfo.cs
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.csproj.CoreCompileInputs.cache
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.dll
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\ref\RealEmCentavo.dll
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.pdb
+C:\Users\marce\OneDrive\Área de Trabalho\RealEmCentavo\obj\Debug\net5.0\RealEmCentavo.genruntimeconfig.cache
