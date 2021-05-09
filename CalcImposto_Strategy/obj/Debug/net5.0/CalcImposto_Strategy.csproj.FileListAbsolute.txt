@@ -1,0 +1,16 @@
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\bin\Debug\net5.0\CalcImposto_Strategy.exe
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\bin\Debug\net5.0\CalcImposto_Strategy.deps.json
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\bin\Debug\net5.0\CalcImposto_Strategy.runtimeconfig.json
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\bin\Debug\net5.0\CalcImposto_Strategy.runtimeconfig.dev.json
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\bin\Debug\net5.0\CalcImposto_Strategy.dll
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\bin\Debug\net5.0\ref\CalcImposto_Strategy.dll
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\bin\Debug\net5.0\CalcImposto_Strategy.pdb
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.csprojAssemblyReference.cache
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.AssemblyInfo.cs
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.dll
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\ref\CalcImposto_Strategy.dll
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.pdb
+C:\Users\marce\source\repos\CalcImposto_Strategy\CalcImposto_Strategy\obj\Debug\net5.0\CalcImposto_Strategy.genruntimeconfig.cache

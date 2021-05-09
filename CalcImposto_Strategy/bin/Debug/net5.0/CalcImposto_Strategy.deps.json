@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CalcImposto_Strategy/1.0.0": {
+        "runtime": {
+          "CalcImposto_Strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalcImposto_Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
