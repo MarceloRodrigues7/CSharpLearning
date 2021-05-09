@@ -13,5 +13,5 @@
   - Converte Valor interio no total de centavos
     - Removido Moeda de 1R$ (Melhor retorno para dinamica).
 - CalcImposto_Strategy
-  - Retorna valor imposto sobre paramentro.
+  - Retorna valor imposto sobre parâmetro.
   - Design Pattern Strategy
