@@ -9,26 +9,26 @@ namespace AluraTunes
         {
             using (var contexto = new AluraTunesEntities())
             {
-                var query = from g in contexto.Generos
-                            select g;
+                GetFaixas(contexto, "Led Zeppelin", "");
+                Console.WriteLine();
+                GetFaixas(contexto, "Led Zeppelin", "Graffiti");
+            }
+        }
 
-                foreach (var genero in query)
-                {
-                    Console.WriteLine("{0}\t{1}",genero.GeneroId,genero.Nome);
-                }
+        private static void GetFaixas(AluraTunesEntities contexto, string BuscaArtista, string BuscaAlbum)
+        {
+            var query = from f in contexto.Faixas
+                        where f.Album.Artista.Nome.Contains(BuscaArtista)
+                        select f;
+            
+            if (!string.IsNullOrEmpty(BuscaAlbum))
+            {
+                query = query.Where(q => q.Album.Titulo.Contains(BuscaAlbum));
+            }
 
-                var faixaEGenero = from g in contexto.Generos
-                                   join f in contexto.Faixas
-                                    on g.GeneroId equals f.GeneroId
-                                   select new { f, g };
-                faixaEGenero = faixaEGenero.Take(10);
-
-                contexto.DataBase.Log = Console.WriteLine();
-
-                foreach (var item in faixaEGenero)
-                {
-                    Console.WriteLine("{0}\t{1}", item.f.Nome,item.g.Nome);
-                }
+            foreach (var faixa in query)
+            {
+                Console.WriteLine("{0}\t{1}", faixa.Album.Titulo, faixa.Nome);
             }
         }
     }

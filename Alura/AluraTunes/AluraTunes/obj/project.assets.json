@@ -6101,11 +6101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marce\\source\\repos\\AluraTunes\\AluraTunes\\AluraTunes.csproj",
+      "projectUniqueName": "C:\\Users\\marce\\source\\repos\\MarceloRodrigues7\\CSharpLearning\\Alura\\AluraTunes\\AluraTunes\\AluraTunes.csproj",
       "projectName": "AluraTunes",
-      "projectPath": "C:\\Users\\marce\\source\\repos\\AluraTunes\\AluraTunes\\AluraTunes.csproj",
+      "projectPath": "C:\\Users\\marce\\source\\repos\\MarceloRodrigues7\\CSharpLearning\\Alura\\AluraTunes\\AluraTunes\\AluraTunes.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marce\\source\\repos\\AluraTunes\\AluraTunes\\obj\\",
+      "outputPath": "C:\\Users\\marce\\source\\repos\\MarceloRodrigues7\\CSharpLearning\\Alura\\AluraTunes\\AluraTunes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

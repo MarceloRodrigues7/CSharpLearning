@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/wUZKfPO7r4NFE/LdpP6/ejrWBUMYF6frnLSfMCiBwwpQ9A9bFAiDeSsQRJNaEY27O9I1F3uc8J9dLgw8pokgg==",
+  "dgSpecHash": "HPH36YbkdjUhnyVtcHJm/5vevtN4e6DHzXdiWyGIqvepgHwCmETG2rG/eSG+gLIyDMy1yK1u+EbeGtZrLj+/Rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marce\\source\\repos\\AluraTunes\\AluraTunes\\AluraTunes.csproj",
+  "projectFilePath": "C:\\Users\\marce\\source\\repos\\MarceloRodrigues7\\CSharpLearning\\Alura\\AluraTunes\\AluraTunes\\AluraTunes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
