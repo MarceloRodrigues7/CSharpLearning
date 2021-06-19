@@ -47,32 +47,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\TiposDeValor.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\2 - Tipos Inteiros\Inteiros.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\3 - Tipos de Ponto Flutuante\PontoFlutuante.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\4 - Decimal\Decimal.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\5 - Booleanos\Booleanos.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\Estruturas.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\Enumeracoes.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\1 - Tipos de Referência\TiposDeReferencia.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\2 - Classes\Classes.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\3 - Interfaces\Interfaces.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\4 - Delegates\Delegates.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\5 - Objetos\Objetos.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\6 - Dynamic\Dinamicos.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\7 - Strings\Strings.cs" />
-    <Compile Include="Aula3 - classes, métodos, métodos de extensão\2 - Metodos\Metodos.cs" />
-    <Compile Include="Aula3 - classes, métodos, métodos de extensão\3 - Parametros Opcionais\ParametrosNomeados.cs" />
-    <Compile Include="Aula3 - classes, métodos, métodos de extensão\3 - Parametros Opcionais\ParametrosOpcionais.cs" />
-    <Compile Include="Aula3 - classes, métodos, métodos de extensão\4 - Métodos de Extensão\MetodosDeExtensao.cs" />
-    <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\IDictionary.cs" />
-    <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\PropriedadesIndexadas.cs" />
-    <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\1 - Métodos Sobrecarregados\Sobrecargas.cs" />
-    <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\2 - Métodos Substituídos\2 - Métodos Substituídos.cs" />
-    <Compile Include="Aula5 - box unbox para converter\1 - boxing\Boxing.cs" />
-    <Compile Include="Aula5 - box unbox para converter\2 - Unboxing\Unboxing.cs" />
+    <Compile Include="Aula1 - Tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\TiposDeValor.cs" />
+    <Compile Include="Aula1 - Tipos de valor, incluindo estruturas e enum\2 - Tipos Inteiros\Inteiros.cs" />
+    <Compile Include="Aula1 - Tipos de valor, incluindo estruturas e enum\3 - Tipos de Ponto Flutuante\PontoFlutuante.cs" />
+    <Compile Include="Aula1 - Tipos de valor, incluindo estruturas e enum\4 - Decimal\Decimal.cs" />
+    <Compile Include="Aula1 - Tipos de valor, incluindo estruturas e enum\5 - Booleanos\Booleanos.cs" />
+    <Compile Include="Aula1 - Tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\Estruturas.cs" />
+    <Compile Include="Aula1 - Tipos de valor, incluindo estruturas e enum\7 - Enums\Enumeracoes.cs" />
+    <Compile Include="Aula2 - Tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\1 - Tipos de Referência\TiposDeReferencia.cs" />
+    <Compile Include="Aula2 - Tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\2 - Classes\Classes.cs" />
+    <Compile Include="Aula2 - Tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\3 - Interfaces\Interfaces.cs" />
+    <Compile Include="Aula2 - Tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\4 - Delegates\Delegates.cs" />
+    <Compile Include="Aula2 - Tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\5 - Objetos\Objetos.cs" />
+    <Compile Include="Aula2 - Tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\6 - Dynamic\Dinamicos.cs" />
+    <Compile Include="Aula2 - Tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\7 - Strings\Strings.cs" />
+    <Compile Include="Aula3 - Classes, métodos, métodos de extensão\2 - Metodos\Metodos.cs" />
+    <Compile Include="Aula3 - Classes, métodos, métodos de extensão\3 - Parametros Opcionais\ParametrosNomeados.cs" />
+    <Compile Include="Aula3 - Classes, métodos, métodos de extensão\3 - Parametros Opcionais\ParametrosOpcionais.cs" />
+    <Compile Include="Aula3 - Classes, métodos, métodos de extensão\4 - Métodos de Extensão\MetodosDeExtensao.cs" />
+    <Compile Include="Aula3 - Classes, métodos, métodos de extensão\5 - Propriedades Indexadas\IDictionary.cs" />
+    <Compile Include="Aula3 - Classes, métodos, métodos de extensão\5 - Propriedades Indexadas\PropriedadesIndexadas.cs" />
+    <Compile Include="Aula4 - Métodos sobrecarregados e substituídos\1 - Métodos Sobrecarregados\Sobrecargas.cs" />
+    <Compile Include="Aula4 - Métodos sobrecarregados e substituídos\2 - Métodos Substituídos\2 - Métodos Substituídos.cs" />
+    <Compile Include="Aula5 - Box e unbox para converter\1 - boxing\Boxing.cs" />
+    <Compile Include="Aula5 - Box e unbox para converter\2 - Unboxing\Unboxing.cs" />
     <Compile Include="Aula6 - Cast de Tipos\ConversoesExplicitas\ConversoesExplicitas.cs" />
     <Compile Include="Aula6 - Cast de Tipos\ConversoesImplicitas\ConversoesImplicitas.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\Operadores IS e AS\Operadores ISeAS.cs" />
+    <Compile Include="Aula7 - Implementado conversoes\Conversoes com classe auxiliar\ConversoesComClasseAuxiliar.cs" />
+    <Compile Include="Aula7 - Implementado conversoes\Operadores de conversao\OperadoresDeConversao.cs" />
+    <Compile Include="Aula8 - Lidar com tipos dinâmicos\Conversoes dinâmicas\ConversoesDeDynamic.cs" />
+    <Compile Include="Aula8 - Lidar com tipos dinâmicos\Resolucao de sobrecarga\ResolucaoSobrecarga.cs" />
+    <Compile Include="Aula8 - Lidar com tipos dinâmicos\string, var, object e dynamic\stringVarObjectEDynamic.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,7 +88,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aula3 - classes, métodos, métodos de extensão\1 - Classes\" />
+    <Folder Include="Aula3 - Classes, métodos, métodos de extensão\1 - Classes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
