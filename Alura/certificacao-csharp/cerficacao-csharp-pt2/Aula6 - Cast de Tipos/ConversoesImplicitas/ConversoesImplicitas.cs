@@ -1,11 +1,11 @@
-﻿using certificacao_csharp_roteiro.antes;
+﻿using cerficacao_csharp_pt2.Aula6___Cast_de_Tipos.Operadores_IS_e_AS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro.Aula6___Cast_de_Tipos.ConversoesImplicitas
+namespace cerficacao_csharp_pt2.Aula6___Cast_de_Tipos.ConversoesImplicitas
 {
     class ConversoesImplicitas
     {
@@ -20,7 +20,7 @@ namespace certificacao_csharp_roteiro.Aula6___Cast_de_Tipos.ConversoesImplicitas
             Gato gato = new Gato();
             Animal animal = gato;
             Console.WriteLine(animal.GetType());
-            IAnimal ianimal = gato;
+            IAnimal ianimal = (IAnimal)gato;
             Console.WriteLine(ianimal.GetType());
             //gato = animal;
         }

@@ -1,11 +1,10 @@
-﻿using certificacao_csharp_roteiro.antes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro
+namespace cerficacao_csharp_pt2
 {
     class Program
     {
@@ -88,7 +87,7 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Metodos", typeof(Metodos)),
                 new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
                 new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
-                new MenuItem("Métodos de Extensão", typeof(Sobrecargas)),
+                new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),
                 new MenuItem("Propriedades Indexadas", typeof(PropriedadesIndexadas)),
                 //new MenuItem("Sobrecargas", typeof(Sobrecargas)),
                 //new MenuItem("Métodos Substituidos", typeof(MetodosSubstituidos)),
@@ -106,6 +105,78 @@ namespace certificacao_csharp_roteiro
                 //new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
             };
         }
+    }
+
+    internal class ParametrosOpcionais
+    {
+    }
+
+    internal class TiposInteiros
+    {
+    }
+
+    internal class TiposDeValor
+    {
+    }
+
+    internal class PropriedadesIndexadas
+    {
+    }
+
+    internal class MetodosDeExtensao
+    {
+    }
+
+    internal class ParametrosNomeados
+    {
+    }
+
+    internal class Metodos
+    {
+    }
+
+    internal class Strings
+    {
+    }
+
+    internal class Dinamicos
+    {
+    }
+
+    internal class Objetos
+    {
+    }
+
+    internal class Delegates
+    {
+    }
+
+    internal class Interfaces
+    {
+    }
+
+    internal class Classes
+    {
+    }
+
+    internal class TiposDeReferencia
+    {
+    }
+
+    internal class Enumeracoes
+    {
+    }
+
+    internal class Estruturas
+    {
+    }
+
+    internal class Booleanos
+    {
+    }
+
+    internal class PontoFlutuante
+    {
     }
 
     class MenuItem

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{056E6D5D-1467-4580-97EE-0273FCE5CE1D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>cerficacao_csharp_pt2</RootNamespace>
+    <AssemblyName>cerficacao-csharp-pt2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aula5 - Box e unbox para converter\1 - boxing\Boxing.cs" />
+    <Compile Include="Aula5 - Box e unbox para converter\2 - Unboxing\Unboxing.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\ConversoesExplicitas\ConversoesExplicitas.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\ConversoesImplicitas\ConversoesImplicitas.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\ConversoesImplicitas\IAnimal.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\Operadores IS e AS\Animal.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\Operadores IS e AS\Cliente.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\Operadores IS e AS\Gato.cs" />
+    <Compile Include="Aula6 - Cast de Tipos\Operadores IS e AS\Operadores ISeAS.cs" />
+    <Compile Include="Aula7 - Implementado conversoes\Conversoes com classe auxiliar\ConversoesComClasseAuxiliar.cs" />
+    <Compile Include="Aula7 - Implementado conversoes\Operadores de conversao\OperadoresDeConversao.cs" />
+    <Compile Include="Aula8 - Lidar com tipos dinâmicos\Conversoes dinâmicas\ConversoesDeDynamic.cs" />
+    <Compile Include="Aula8 - Lidar com tipos dinâmicos\Resolucao de sobrecarga\ResolucaoSobrecarga.cs" />
+    <Compile Include="Aula8 - Lidar com tipos dinâmicos\string, var, object e dynamic\stringVarObjectEDynamic.cs" />
+    <Compile Include="Aula9 - Adicionando Membros Dinamicos\Adicionando propriedades e metodos\UsandoExpandObject.cs" />
+    <Compile Include="Aula9 - Adicionando Membros Dinamicos\Interoperabilidade COM\InteropCOM.cs" />
+    <Compile Include="IAulaItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Aula8 - Lidar com tipos dinâmicos\Adicionando Membros Dinamicos\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

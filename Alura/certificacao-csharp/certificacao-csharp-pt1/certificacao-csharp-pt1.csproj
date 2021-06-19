@@ -69,16 +69,6 @@
     <Compile Include="Aula3 - Classes, métodos, métodos de extensão\5 - Propriedades Indexadas\PropriedadesIndexadas.cs" />
     <Compile Include="Aula4 - Métodos sobrecarregados e substituídos\1 - Métodos Sobrecarregados\Sobrecargas.cs" />
     <Compile Include="Aula4 - Métodos sobrecarregados e substituídos\2 - Métodos Substituídos\2 - Métodos Substituídos.cs" />
-    <Compile Include="Aula5 - Box e unbox para converter\1 - boxing\Boxing.cs" />
-    <Compile Include="Aula5 - Box e unbox para converter\2 - Unboxing\Unboxing.cs" />
-    <Compile Include="Aula6 - Cast de Tipos\ConversoesExplicitas\ConversoesExplicitas.cs" />
-    <Compile Include="Aula6 - Cast de Tipos\ConversoesImplicitas\ConversoesImplicitas.cs" />
-    <Compile Include="Aula6 - Cast de Tipos\Operadores IS e AS\Operadores ISeAS.cs" />
-    <Compile Include="Aula7 - Implementado conversoes\Conversoes com classe auxiliar\ConversoesComClasseAuxiliar.cs" />
-    <Compile Include="Aula7 - Implementado conversoes\Operadores de conversao\OperadoresDeConversao.cs" />
-    <Compile Include="Aula8 - Lidar com tipos dinâmicos\Conversoes dinâmicas\ConversoesDeDynamic.cs" />
-    <Compile Include="Aula8 - Lidar com tipos dinâmicos\Resolucao de sobrecarga\ResolucaoSobrecarga.cs" />
-    <Compile Include="Aula8 - Lidar com tipos dinâmicos\string, var, object e dynamic\stringVarObjectEDynamic.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
