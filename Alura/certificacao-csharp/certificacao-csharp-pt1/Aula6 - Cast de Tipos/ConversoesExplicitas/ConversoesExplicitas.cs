@@ -20,7 +20,7 @@ namespace certificacao_csharp_roteiro.Aula6___Cast_de_Tipos.ConversoesExplicitas
 
             Animal animal = new Gato();
             Gato gato = (Gato)animal; //cast = conversão explicita
-            Console.WriteLine(gato);
+            Console.WriteLine(gato.GetType());
 
         }
     }
