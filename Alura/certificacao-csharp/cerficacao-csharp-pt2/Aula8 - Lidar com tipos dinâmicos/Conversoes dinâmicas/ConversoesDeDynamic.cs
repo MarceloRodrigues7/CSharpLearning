@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro.Aula8___Lidar_com_tipos_dinâmicos.Conversoes_dinâmicas
+namespace cerficacao_csharp_pt2.Aula8___Lidar_com_tipos_dinâmicos.Conversoes_dinâmicas
 {
     class ConversoesDeDynamic : IAulaItem
     {

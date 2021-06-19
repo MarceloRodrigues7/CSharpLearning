@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro.Aula8___Lidar_com_tipos_dinâmicos.string__var__object_e_dynamic
+namespace cerficacao_csharp_pt2.Aula8___Lidar_com_tipos_dinâmicos.string__var__object_e_dynamic
 {
     class stringVarObjectEDynamic : IAulaItem
     {

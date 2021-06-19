@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro.Aula7___Implementado_conversoes.Conversoes_com_classe_auxiliar
+namespace cerficacao_csharp_pt2.Aula7___Implementado_conversoes.Conversoes_com_classe_auxiliar
 {
     class ConversoesComClasseAuxiliar : IAulaItem
     {

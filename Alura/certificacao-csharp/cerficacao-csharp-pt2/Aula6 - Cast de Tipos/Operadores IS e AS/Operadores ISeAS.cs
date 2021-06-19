@@ -1,11 +1,10 @@
-﻿using certificacao_csharp_roteiro.antes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro.Aula6___Cast_de_Tipos.Operadores_IS_e_AS
+namespace cerficacao_csharp_pt2.Aula6___Cast_de_Tipos.Operadores_IS_e_AS
 {
     class Operadores_ISeAS
     {
