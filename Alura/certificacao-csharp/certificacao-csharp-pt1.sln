@@ -5,10 +5,12 @@ VisualStudioVersion = 17.0.31410.414
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "certificacao-csharp-pt1", "certificacao-csharp-pt1\certificacao-csharp-pt1.csproj", "{77A70540-3F27-46F9-BD92-C54A53195C37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cerficacao-csharp-pt2", "cerficacao-csharp-pt2\cerficacao-csharp-pt2.csproj", "{056E6D5D-1467-4580-97EE-0273FCE5CE1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "certificacao-csharp-pt2", "cerficacao-csharp-pt2\certificacao-csharp-pt2.csproj", "{056E6D5D-1467-4580-97EE-0273FCE5CE1D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{77A70540-3F27-46F9-BD92-C54A53195C37} = {77A70540-3F27-46F9-BD92-C54A53195C37}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "certificacao-csharp-pt3", "certificacao-csharp-pt3\certificacao-csharp-pt3.csproj", "{43079543-D89D-4673-9D64-B4D1CF14F732}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{056E6D5D-1467-4580-97EE-0273FCE5CE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{056E6D5D-1467-4580-97EE-0273FCE5CE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{056E6D5D-1467-4580-97EE-0273FCE5CE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43079543-D89D-4673-9D64-B4D1CF14F732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43079543-D89D-4673-9D64-B4D1CF14F732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43079543-D89D-4673-9D64-B4D1CF14F732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43079543-D89D-4673-9D64-B4D1CF14F732}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
