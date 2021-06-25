@@ -14,11 +14,21 @@ namespace Alura.LeilaoOnline.Tests
             //Arrage
             var leilao = new Leilao("Van Gogh");
             var fulano = new Interessada("Fulano", leilao);
-            foreach (var item in ofertas)
-            {
-                leilao.RecebeLance(fulano, item);
-            }
+            var maria = new Interessada("Maria", leilao);
+            leilao.IniciaPregao();
 
+            for (int i = 0; i < ofertas.Length; i++)
+            {
+                var valor = ofertas[i];
+                if ((i % 2) == 0)
+                {
+                    leilao.RecebeLance(fulano, valor);
+                }
+                else
+                {
+                    leilao.RecebeLance(maria, valor);
+                }
+            }
             //Act
             leilao.TerminaPregao();
 
