@@ -17,4 +17,3 @@ C:\Users\Marcelo\Git\CSharpLearning\Alura\Alura.LeilaoOnline\Alura.LeilaoOnline.
 C:\Users\Marcelo\Git\CSharpLearning\Alura\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.csproj.CoreCompileInputs.cache
 C:\Users\Marcelo\Git\CSharpLearning\Alura\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.dll
 C:\Users\Marcelo\Git\CSharpLearning\Alura\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.pdb
-C:\Users\Marcelo\Git\CSharpLearning\Alura\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.csproj.AssemblyReference.cache

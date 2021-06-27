@@ -14,15 +14,15 @@ namespace Alura.LeilaoOnline.Tests
         public void NaoAceitaProximoLanceDadoMesmoClienteRealizouUltimoLance()
         {
             //Arrage
-            var leilao = new Leilao("Van Gogh");
+            var modalidade = new MaiorValor();
+            var leilao = new Leilao("Van Gogh", modalidade);
             var fulano = new Interessada("Fulano", leilao);
             leilao.IniciaPregao();
             leilao.RecebeLance(fulano, 800);
-
+            //Act
             leilao.TerminaPregao();
-
             leilao.RecebeLance(fulano, 1000);
-
+            //Assert
             var qtdeEsperada = 1;
             var qtdeObtida = leilao.Lances.Count();
             Assert.Equal(qtdeEsperada, qtdeObtida);
@@ -36,11 +36,11 @@ namespace Alura.LeilaoOnline.Tests
         public void NaoPermiteNovosLancesDadoLeilaoFinalizado(int qtdeEsperada, double[] ofertas)
         {
             //Arrage
-            var leilao = new Leilao("Van Gogh");
+            var modalidade = new MaiorValor();
+            var leilao = new Leilao("Van Gogh", modalidade);
             var fulano = new Interessada("Fulano", leilao);
             var maria = new Interessada("Maria", leilao);
             leilao.IniciaPregao();
-
             for(int i = 0; i < ofertas.Length; i++)
             {
                 var valor = ofertas[i];
