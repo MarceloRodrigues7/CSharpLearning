@@ -101,7 +101,12 @@ namespace certificacao_csharp_pt3
             {
                 throw new ArgumentException("Objeto não é um Aluno");
             }
-            return this.DataNascimento.CompareTo(outro.DataNascimento);
+            var resultado = this.DataNascimento.CompareTo(outro.DataNascimento);
+            if (resultado==0)
+            {
+                resultado = this.Nome.CompareTo(outro.Nome);
+            }
+            return resultado;
         }
     }
 }
