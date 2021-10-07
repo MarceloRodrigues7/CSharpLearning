@@ -1,0 +1,8 @@
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.AssemblyInfo.cs
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.RazorAssemblyInfo.cache
+C:\Users\Marcelo\Desktop\SON\aspnetcore_son\curso2\obj\Debug\net5.0\curso2.RazorAssemblyInfo.cs
