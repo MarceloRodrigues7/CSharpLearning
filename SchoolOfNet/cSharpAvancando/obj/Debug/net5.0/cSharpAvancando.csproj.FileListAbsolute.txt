@@ -1,0 +1,16 @@
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.AssemblyInfo.cs
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\bin\Debug\net5.0\cSharpAvancando.exe
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\bin\Debug\net5.0\cSharpAvancando.deps.json
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\bin\Debug\net5.0\cSharpAvancando.runtimeconfig.json
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\bin\Debug\net5.0\cSharpAvancando.runtimeconfig.dev.json
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\bin\Debug\net5.0\cSharpAvancando.dll
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\bin\Debug\net5.0\ref\cSharpAvancando.dll
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\bin\Debug\net5.0\cSharpAvancando.pdb
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.dll
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\ref\cSharpAvancando.dll
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.pdb
+C:\Users\Marcelo\Desktop\SON\cSharpAvancando\obj\Debug\net5.0\cSharpAvancando.genruntimeconfig.cache

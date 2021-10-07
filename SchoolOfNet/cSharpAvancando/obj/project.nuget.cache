@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VtHXq0OWqwh5uQaEkk5vTuTt12is1bnVqgMvG9WJ5BXVWdVBOpPYPKB4nNm6ba1f75SIpJFTRD+XTLgLkB+R5w==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Marcelo\\Desktop\\SON\\cSharpAvancando\\cSharpAvancando.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcelo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
