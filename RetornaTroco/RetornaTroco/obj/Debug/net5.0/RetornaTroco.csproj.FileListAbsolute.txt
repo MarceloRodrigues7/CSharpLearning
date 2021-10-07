@@ -1,0 +1,16 @@
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\bin\Debug\net5.0\RetornaTroco.exe
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\bin\Debug\net5.0\RetornaTroco.deps.json
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\bin\Debug\net5.0\RetornaTroco.runtimeconfig.json
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\bin\Debug\net5.0\RetornaTroco.runtimeconfig.dev.json
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\bin\Debug\net5.0\RetornaTroco.dll
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\bin\Debug\net5.0\ref\RetornaTroco.dll
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\bin\Debug\net5.0\RetornaTroco.pdb
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.AssemblyInfo.cs
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.dll
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\ref\RetornaTroco.dll
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.pdb
+C:\Users\Marcelo\Desktop\SON\desafiosAlgoritmo\RetornaTroco\RetornaTroco\obj\Debug\net5.0\RetornaTroco.genruntimeconfig.cache
