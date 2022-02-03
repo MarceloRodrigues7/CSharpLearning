@@ -1,0 +1,16 @@
+C:\Users\marce\Desktop\ActionEChaining\bin\Debug\net5.0\ExemplosActions.exe
+C:\Users\marce\Desktop\ActionEChaining\bin\Debug\net5.0\ExemplosActions.deps.json
+C:\Users\marce\Desktop\ActionEChaining\bin\Debug\net5.0\ExemplosActions.runtimeconfig.json
+C:\Users\marce\Desktop\ActionEChaining\bin\Debug\net5.0\ExemplosActions.runtimeconfig.dev.json
+C:\Users\marce\Desktop\ActionEChaining\bin\Debug\net5.0\ExemplosActions.dll
+C:\Users\marce\Desktop\ActionEChaining\bin\Debug\net5.0\ref\ExemplosActions.dll
+C:\Users\marce\Desktop\ActionEChaining\bin\Debug\net5.0\ExemplosActions.pdb
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.csproj.AssemblyReference.cache
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.AssemblyInfoInputs.cache
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.AssemblyInfo.cs
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.csproj.CoreCompileInputs.cache
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.dll
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ref\ExemplosActions.dll
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.pdb
+C:\Users\marce\Desktop\ActionEChaining\obj\Debug\net5.0\ExemplosActions.genruntimeconfig.cache
