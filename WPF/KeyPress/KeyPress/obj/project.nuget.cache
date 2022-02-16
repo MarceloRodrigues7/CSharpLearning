@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G4JuWupGHRPJaAFinK/hIHatT/HbOe1H+tnB/EMiTgErzWAUDU2LqQusq3uX0vluHO04JD/j4le6RVpPQiATsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marce\\source\\repos\\CSharpLearning\\WPF\\KeyPress\\KeyPress\\KeyPress.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
