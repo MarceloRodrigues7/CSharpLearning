@@ -32,9 +32,25 @@ namespace TestesUnitarios
 
             var resultUm = conversao.ValidaTextoDecimal(textoUm);
             var resultDois = conversao.ValidaTextoDecimal(textoDois);
-            
+
             Assert.True(resultUm);
             Assert.False(resultDois);
+        }
+
+        [Fact]
+        public void ConverteTextoParaOperador()
+        {
+            var texto1 = "abc";
+            var texto2 = "+";
+            var texto3 = "10";
+
+            var resultUm = conversao.ConverteTextoParaOperador(texto1);
+            var resultDois = conversao.ConverteTextoParaOperador(texto2);
+            var resultTres = conversao.ConverteTextoParaOperador(texto3);
+
+            Assert.Equal(EnumOperadores.Erro, resultUm);
+            Assert.Equal(EnumOperadores.Somar, resultDois);
+            Assert.Equal(EnumOperadores.Erro, resultTres);
         }
     }
 }

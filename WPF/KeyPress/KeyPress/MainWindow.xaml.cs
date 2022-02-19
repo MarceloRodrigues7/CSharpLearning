@@ -24,6 +24,8 @@ namespace KeyPress
         private readonly Conversao conversao;
         private decimal valorUm;
         private decimal valorDois;
+        private EnumOperadores operador;
+        private decimal resultadoCalculo;
 
         public MainWindow()
         {
@@ -41,6 +43,30 @@ namespace KeyPress
         {
             var rValorUm = ArmazenaValorUm();
             var rValorDois = ArmazenaValorDois();
+            var rOperador = ArmazenaValorOperador();
+            if (rValorUm & rValorDois & rOperador)
+            {
+                resultadoCalculo = RealizaCalculo();
+                txtRespCalculo.Text = resultadoCalculo.ToString();
+            }
+            ResetaParamentos();
+        }
+
+        private decimal RealizaCalculo()
+        {
+            switch (operador)
+            {
+                case EnumOperadores.Somar:
+                    return calculo.Adicao(valorUm, valorDois);
+                case EnumOperadores.Subtrair:
+                    return calculo.Subtracao(valorUm, valorDois);
+                case EnumOperadores.Multiplicar:
+                    return calculo.Multiplicacao(valorUm, valorDois);
+                case EnumOperadores.Dividir:
+                    return calculo.Divisao(valorUm, valorDois);
+                default:
+                    return 0;
+            }
         }
 
         private bool ArmazenaValorUm()
@@ -67,5 +93,23 @@ namespace KeyPress
             return true;
         }
 
+        private bool ArmazenaValorOperador()
+        {
+            operador = conversao.ConverteTextoParaOperador(txtOperador.Text);
+            if (operador == EnumOperadores.Erro)
+            {
+                MessageBox.Show("Operador invalido - Corretos: +, -, * ou /");
+                txtOperador.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        private void ResetaParamentos()
+        {
+            valorUm = 0;
+            valorDois = 0;
+            resultadoCalculo = 0;
+        }
     }
 }
