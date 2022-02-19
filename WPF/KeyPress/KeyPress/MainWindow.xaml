@@ -5,18 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KeyPress"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="220" Width="250"
         KeyDown="Window_KeyDown">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="btnValida" Grid.Column="0" Grid.Row="0" Content="Valida" Click="btnValida_Click"/>
-        <TextBox x:Name="txtResp" Grid.Row="1" Grid.Column="1" Text="Tecla Pressionada"/>
+        <Label Content="Valor 1:" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" />
+        <TextBox x:Name="txtValorUm" Grid.Row="0" Grid.Column="1" Width="100" Margin="5"/>
+        
+        <Label Content="Valor 2:" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox x:Name="txtValorDois" Grid.Row="1" Grid.Column="1" Width="100" Margin="5"/>
+
+        <Label Content="Operador:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" />
+        <TextBox x:Name="txtOperador" Grid.Row="2" Grid.Column="1" Width="100" Margin="5"/>
+
+        <Button x:Name="btnCalcular" Grid.Row="3" Grid.Column="1" Content="Calcular" Width="50" Margin="0,10,0,10" Click="btnCalcular_Click"/>
+
+        <Label Content="Resultado:" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" />
+        <TextBox x:Name="txtRespCalculo" Grid.Row="4" Grid.Column="1" IsReadOnly="True" IsTabStop="False" Width="100" Margin="5"/>
+
+        <Label Grid.Row="5" Grid.Column="0" Content="Tecla Pressionada:" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+        <TextBox x:Name="txtTeclaPressionada" Grid.Row="5" Grid.Column="1" IsReadOnly="True" IsTabStop="False" VerticalAlignment="Bottom" TextAlignment="Left" Margin="0,0,0,5"/>
     </Grid>
 </Window>

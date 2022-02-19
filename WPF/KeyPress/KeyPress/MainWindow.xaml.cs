@@ -20,21 +20,52 @@ namespace KeyPress
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Key _keyPress;
-        private string Texto = "Tecla Pressionada: ";
+        private readonly Calculo calculo;
+        private readonly Conversao conversao;
+        private decimal valorUm;
+        private decimal valorDois;
+
         public MainWindow()
         {
             InitializeComponent();
+            calculo = new();
+            conversao = new();
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            _keyPress = e.Key;
+            txtTeclaPressionada.Text = e.Key.ToString();
         }
 
-        private void btnValida_Click(object sender, RoutedEventArgs e)
+        private void btnCalcular_Click(object sender, RoutedEventArgs e)
         {
-            txtResp.Text = Texto + _keyPress.ToString();
+            var rValorUm = ArmazenaValorUm();
+            var rValorDois = ArmazenaValorDois();
         }
+
+        private bool ArmazenaValorUm()
+        {
+            if (!conversao.ValidaTextoDecimal(txtValorUm.Text))
+            {
+                MessageBox.Show("Valor 1 deve ter apenas numeros");
+                txtValorUm.Focus();
+                return false;
+            }
+            valorUm = conversao.ConverteTextoParaDecimal(txtValorUm.Text);
+            return true;
+        }
+
+        private bool ArmazenaValorDois()
+        {
+            if (!conversao.ValidaTextoDecimal(txtValorDois.Text))
+            {
+                MessageBox.Show("Valor 2 deve ter apenas numeros");
+                txtValorDois.Focus();
+                return false;
+            }
+            valorDois = conversao.ConverteTextoParaDecimal(txtValorDois.Text);
+            return true;
+        }
+
     }
 }
