@@ -1,3 +1,8 @@
+C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress_MarkupCompile.cache
+C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress_MarkupCompile.lref
+C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress.csproj.AssemblyReference.cache
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\bin\Debug\net5.0-windows\KeyPress.exe
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\bin\Debug\net5.0-windows\KeyPress.deps.json
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\bin\Debug\net5.0-windows\KeyPress.runtimeconfig.json
@@ -5,11 +10,6 @@ C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\bin\Debug\net5.
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\bin\Debug\net5.0-windows\KeyPress.dll
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\bin\Debug\net5.0-windows\ref\KeyPress.dll
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\bin\Debug\net5.0-windows\KeyPress.pdb
-C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress.csproj.AssemblyReference.cache
-C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\MainWindow.g.cs
-C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\App.g.cs
-C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress_MarkupCompile.cache
-C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress_MarkupCompile.lref
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\MainWindow.baml
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress.g.resources
 C:\Users\marce\source\repos\CSharpLearning\WPF\KeyPress\KeyPress\obj\Debug\net5.0-windows\KeyPress.GeneratedMSBuildEditorConfig.editorconfig

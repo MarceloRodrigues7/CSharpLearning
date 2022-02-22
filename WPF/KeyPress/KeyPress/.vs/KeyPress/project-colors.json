@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "505a9835-5fd4-49a8-8ebf-201967d8fbe9": {
+      "ProjectGuid": "505a9835-5fd4-49a8-8ebf-201967d8fbe9",
+      "DisplayName": "KeyPress",
+      "ColorIndex": 0
+    },
+    "f1ebf748-d9e8-4603-a9af-1d71be772099": {
+      "ProjectGuid": "f1ebf748-d9e8-4603-a9af-1d71be772099",
+      "DisplayName": "TesteKeyPress",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "d1fd65c1-59f9-4fc0-8aa0-616fb2163cfc": {
+      "ProjectGuid": "d1fd65c1-59f9-4fc0-8aa0-616fb2163cfc",
+      "DisplayName": "TestesKeyPress",
+      "ColorIndex": 2
+    },
+    "6f25148a-bbf3-4de9-ae87-8237733c0a0d": {
+      "ProjectGuid": "6f25148a-bbf3-4de9-ae87-8237733c0a0d",
+      "DisplayName": "TestesUnitarios",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
