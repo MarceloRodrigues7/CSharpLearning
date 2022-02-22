@@ -28,25 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.MenuMain = new System.Windows.Forms.MenuStrip();
             this.MenuTool = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemAdicionarDia = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.MenuItemSair = new System.Windows.Forms.ToolStripMenuItem();
             this.dgDias = new System.Windows.Forms.DataGridView();
-            this.menuStrip1.SuspendLayout();
+            this.PainelRodape = new System.Windows.Forms.StatusStrip();
+            this.rodapeHorasTotal = new System.Windows.Forms.ToolStripStatusLabel();
+            this.rodapeDiasTotal = new System.Windows.Forms.ToolStripStatusLabel();
+            this.rodapeHorasSaldo = new System.Windows.Forms.ToolStripStatusLabel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.MenuMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDias)).BeginInit();
+            this.PainelRodape.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // MenuMain
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuTool});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(569, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.MenuMain.Location = new System.Drawing.Point(0, 0);
+            this.MenuMain.Name = "MenuMain";
+            this.MenuMain.Size = new System.Drawing.Size(587, 24);
+            this.MenuMain.TabIndex = 0;
+            this.MenuMain.Text = "menuStrip1";
             // 
             // MenuTool
             // 
@@ -80,31 +86,73 @@
             // dgDias
             // 
             this.dgDias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgDias.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgDias.Location = new System.Drawing.Point(0, 24);
+            this.dgDias.Location = new System.Drawing.Point(0, 83);
             this.dgDias.Name = "dgDias";
             this.dgDias.RowTemplate.Height = 25;
-            this.dgDias.Size = new System.Drawing.Size(569, 196);
+            this.dgDias.Size = new System.Drawing.Size(587, 253);
             this.dgDias.TabIndex = 1;
+            // 
+            // PainelRodape
+            // 
+            this.PainelRodape.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rodapeHorasTotal,
+            this.rodapeDiasTotal,
+            this.rodapeHorasSaldo});
+            this.PainelRodape.Location = new System.Drawing.Point(0, 339);
+            this.PainelRodape.Name = "PainelRodape";
+            this.PainelRodape.Size = new System.Drawing.Size(587, 22);
+            this.PainelRodape.TabIndex = 2;
+            this.PainelRodape.Text = "statusStrip1";
+            // 
+            // rodapeHorasTotal
+            // 
+            this.rodapeHorasTotal.Name = "rodapeHorasTotal";
+            this.rodapeHorasTotal.Size = new System.Drawing.Size(100, 17);
+            this.rodapeHorasTotal.Text = "rodapeHorasTotal";
+            // 
+            // rodapeDiasTotal
+            // 
+            this.rodapeDiasTotal.Name = "rodapeDiasTotal";
+            this.rodapeDiasTotal.Size = new System.Drawing.Size(91, 17);
+            this.rodapeDiasTotal.Text = "rodapeDiasTotal";
+            // 
+            // rodapeHorasSaldo
+            // 
+            this.rodapeHorasSaldo.Name = "rodapeHorasSaldo";
+            this.rodapeHorasSaldo.Size = new System.Drawing.Size(104, 17);
+            this.rodapeHorasSaldo.Text = "rodapeHorasSaldo";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 24);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(587, 53);
+            this.panel1.TabIndex = 3;
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(569, 220);
+            this.ClientSize = new System.Drawing.Size(587, 361);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.PainelRodape);
             this.Controls.Add(this.dgDias);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.MenuMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.MenuMain;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Controle Horas";
             this.Load += new System.EventHandler(this.FrmMain_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.MenuMain.ResumeLayout(false);
+            this.MenuMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDias)).EndInit();
+            this.PainelRodape.ResumeLayout(false);
+            this.PainelRodape.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,11 +160,16 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip MenuMain;
         private System.Windows.Forms.ToolStripMenuItem MenuTool;
         private System.Windows.Forms.ToolStripMenuItem MenuItemAdicionarDia;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem MenuItemSair;
         private System.Windows.Forms.DataGridView dgDias;
+        private System.Windows.Forms.StatusStrip PainelRodape;
+        private System.Windows.Forms.ToolStripStatusLabel rodapeHorasTotal;
+        private System.Windows.Forms.ToolStripStatusLabel rodapeDiasTotal;
+        private System.Windows.Forms.ToolStripStatusLabel rodapeHorasSaldo;
+        private System.Windows.Forms.Panel panel1;
     }
 }

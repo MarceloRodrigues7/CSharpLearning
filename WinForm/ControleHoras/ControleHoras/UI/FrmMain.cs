@@ -46,6 +46,9 @@ namespace ControleHoras.UI
         private void FrmMain_Load(object sender, EventArgs e)
         {
             CarregaGrid();
+            TotalDeDias();
+            TotalDeHoras();
+            TotalsaldoHoras();
         }
 
         private void FormataGridView()
@@ -71,6 +74,34 @@ namespace ControleHoras.UI
             dgDias.Columns[6].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             dgDias.Columns[7].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgDias.Columns[7].HeaderText = "Resultado";
+        }
+
+        private void TotalDeDias()
+        {
+            var dias = _entityFactory.Dias.Count();
+            rodapeDiasTotal.Text = $"Total Dias: {dias}";
+        }
+
+        private void TotalDeHoras()
+        {
+            var totalHoras = new TimeSpan();
+            var horas = _entityFactory.Dias.Select(d => d.TotalHoras);
+            foreach (var hora in horas)
+            {
+                totalHoras += hora;
+            }
+            rodapeHorasTotal.Text = $"Total Horas: {totalHoras}";
+        }
+
+        private void TotalsaldoHoras()
+        {
+            var totalHoras = new TimeSpan();
+            var dias = _entityFactory.Dias;
+            foreach (var dia in dias)
+            {
+                totalHoras += dia.TotalHoras - TimeSpan.FromHours(8);
+            }
+            rodapeHorasSaldo.Text = $"Total Saldo Horas: {totalHoras}";
         }
     }
 }
