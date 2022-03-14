@@ -29,7 +29,7 @@ namespace ControleHoras.UI
 
         private void FrmAdicionaDia_Load(object sender, EventArgs e)
         {
-            dtData.Focus();
+
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
@@ -118,6 +118,30 @@ namespace ControleHoras.UI
             {
                 _dia.HoraQuatro = TimeSpan.Parse(txtHoraFinal.Text);
             }
+        }
+
+        private void txtHoraInicio_TextChanged(object sender, EventArgs e)
+        {
+            if (txtHoraInicio.Text.Length == 5)
+                txtHoraPausa.Focus();
+        }
+
+        private void txtHoraPausa_TextChanged(object sender, EventArgs e)
+        {
+            if (txtHoraPausa.Text.Length == 5)
+                txtHoraRetorno.Focus();
+        }
+
+        private void txtHoraRetorno_TextChanged(object sender, EventArgs e)
+        {
+            if (txtHoraRetorno.Text.Length == 5)
+                txtHoraFinal.Focus();
+        }
+
+        private void txtHoraFinal_TextChanged(object sender, EventArgs e)
+        {
+            if (txtHoraFinal.Text.Length == 5)
+                btnSalvar.Focus();
         }
     }
 }

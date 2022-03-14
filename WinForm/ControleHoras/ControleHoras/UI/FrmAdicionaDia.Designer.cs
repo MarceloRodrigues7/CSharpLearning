@@ -84,7 +84,8 @@
             this.txtHoraInicio.Mask = "00:00";
             this.txtHoraInicio.Name = "txtHoraInicio";
             this.txtHoraInicio.Size = new System.Drawing.Size(39, 23);
-            this.txtHoraInicio.TabIndex = 4;
+            this.txtHoraInicio.TabIndex = 5;
+            this.txtHoraInicio.TextChanged += new System.EventHandler(this.txtHoraInicio_TextChanged);
             this.txtHoraInicio.Leave += new System.EventHandler(this.txtHoraInicio_Leave);
             // 
             // txtHoraPausa
@@ -93,7 +94,8 @@
             this.txtHoraPausa.Mask = "00:00";
             this.txtHoraPausa.Name = "txtHoraPausa";
             this.txtHoraPausa.Size = new System.Drawing.Size(39, 23);
-            this.txtHoraPausa.TabIndex = 5;
+            this.txtHoraPausa.TabIndex = 6;
+            this.txtHoraPausa.TextChanged += new System.EventHandler(this.txtHoraPausa_TextChanged);
             this.txtHoraPausa.Leave += new System.EventHandler(this.txtHoraPausa_Leave);
             // 
             // txtHoraRetorno
@@ -102,7 +104,8 @@
             this.txtHoraRetorno.Mask = "00:00";
             this.txtHoraRetorno.Name = "txtHoraRetorno";
             this.txtHoraRetorno.Size = new System.Drawing.Size(39, 23);
-            this.txtHoraRetorno.TabIndex = 6;
+            this.txtHoraRetorno.TabIndex = 7;
+            this.txtHoraRetorno.TextChanged += new System.EventHandler(this.txtHoraRetorno_TextChanged);
             this.txtHoraRetorno.Leave += new System.EventHandler(this.txtHoraRetorno_Leave);
             // 
             // txtHoraFinal
@@ -111,7 +114,8 @@
             this.txtHoraFinal.Mask = "00:00";
             this.txtHoraFinal.Name = "txtHoraFinal";
             this.txtHoraFinal.Size = new System.Drawing.Size(39, 23);
-            this.txtHoraFinal.TabIndex = 7;
+            this.txtHoraFinal.TabIndex = 8;
+            this.txtHoraFinal.TextChanged += new System.EventHandler(this.txtHoraFinal_TextChanged);
             this.txtHoraFinal.Leave += new System.EventHandler(this.txtHoraFinal_Leave);
             // 
             // dtData
@@ -120,7 +124,7 @@
             this.dtData.Location = new System.Drawing.Point(99, 12);
             this.dtData.Name = "dtData";
             this.dtData.Size = new System.Drawing.Size(156, 23);
-            this.dtData.TabIndex = 9;
+            this.dtData.TabIndex = 4;
             this.dtData.Leave += new System.EventHandler(this.dtData_Leave);
             // 
             // label5

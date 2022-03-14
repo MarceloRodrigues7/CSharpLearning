@@ -85,12 +85,15 @@
             // 
             // dgDias
             // 
+            this.dgDias.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgDias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgDias.Location = new System.Drawing.Point(0, 83);
             this.dgDias.Name = "dgDias";
             this.dgDias.RowTemplate.Height = 25;
-            this.dgDias.Size = new System.Drawing.Size(587, 253);
-            this.dgDias.TabIndex = 1;
+            this.dgDias.Size = new System.Drawing.Size(587, 273);
+            this.dgDias.TabIndex = 3;
             // 
             // PainelRodape
             // 
@@ -98,7 +101,7 @@
             this.rodapeHorasTotal,
             this.rodapeDiasTotal,
             this.rodapeHorasSaldo});
-            this.PainelRodape.Location = new System.Drawing.Point(0, 339);
+            this.PainelRodape.Location = new System.Drawing.Point(0, 359);
             this.PainelRodape.Name = "PainelRodape";
             this.PainelRodape.Size = new System.Drawing.Size(587, 22);
             this.PainelRodape.TabIndex = 2;
@@ -129,18 +132,17 @@
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(587, 53);
-            this.panel1.TabIndex = 3;
+            this.panel1.TabIndex = 1;
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 361);
+            this.ClientSize = new System.Drawing.Size(587, 381);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.PainelRodape);
             this.Controls.Add(this.dgDias);
             this.Controls.Add(this.MenuMain);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.MenuMain;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

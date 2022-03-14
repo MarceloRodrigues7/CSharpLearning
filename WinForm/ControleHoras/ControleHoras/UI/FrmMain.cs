@@ -48,7 +48,23 @@ namespace ControleHoras.UI
             CarregaGrid();
             TotalDeDias();
             TotalDeHoras();
-            TotalsaldoHoras();
+            TotalSaldoHoras();
+        }
+
+        private void dgDias_row()
+        {
+            for (int row = 0; row < dgDias.RowCount; row++)
+            {
+                string result = dgDias[7, row].Value.ToString();
+                if (TimeSpan.Parse(result) > TimeSpan.FromHours(8))
+                {
+                    dgDias.Rows[row].DefaultCellStyle.ForeColor = Color.DarkGreen;
+                }
+                else
+                {
+                    dgDias.Rows[row].DefaultCellStyle.ForeColor = Color.DarkRed;
+                }
+            }
         }
 
         private void FormataGridView()
@@ -74,6 +90,8 @@ namespace ControleHoras.UI
             dgDias.Columns[6].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             dgDias.Columns[7].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgDias.Columns[7].HeaderText = "Resultado";
+            dgDias_row();
+
         }
 
         private void TotalDeDias()
@@ -93,7 +111,7 @@ namespace ControleHoras.UI
             rodapeHorasTotal.Text = $"Total Horas: {totalHoras}";
         }
 
-        private void TotalsaldoHoras()
+        private void TotalSaldoHoras()
         {
             var totalHoras = new TimeSpan();
             var dias = _entityFactory.Dias;
@@ -103,5 +121,6 @@ namespace ControleHoras.UI
             }
             rodapeHorasSaldo.Text = $"Total Saldo Horas: {totalHoras}";
         }
+
     }
 }
