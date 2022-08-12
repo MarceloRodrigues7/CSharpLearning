@@ -22,11 +22,18 @@ namespace AbstractCSharp
 
             carro.SetVelocidadeAtual(false);
             carro.StatusComponentes();
+            carro.SetVelocidadeAtual(true);
+            carro.SetVelocidadeAtual(true);
+
+            carro.PararEDesligarGeral();
+
         }
     }
 
     abstract class Automovel
     {
+        public delegate void ParaGeral();
+
         protected bool _ligado;
         protected int _velocidadeAtual;
         protected int _velocidadeMaxima;
@@ -40,6 +47,7 @@ namespace AbstractCSharp
         }
 
         public abstract void Ligar();
+        public abstract void Desligar();
         public abstract void SetVelocidadeAtual(bool acelerar);
 
         public void StatusComponentes()
@@ -53,6 +61,34 @@ namespace AbstractCSharp
     }
     class Carro : Automovel
     {
+        public event ParaGeral PararGeral;
+
+        public Carro()
+        {
+            PararGeral += () =>
+            {
+                Console.WriteLine($"Iniciando parada geral - Velocidade atual = {_velocidadeAtual}");
+                Console.WriteLine($"Acionando Freios");
+                AcionarFreio();
+                Console.WriteLine($"Status Freio = {_freio}");
+
+                while (_velocidadeAtual > 0)
+                {
+                    Console.WriteLine($"Parando - Velocidade atual = {_velocidadeAtual}");
+                    if (_velocidadeAtual <= 5)
+                    {
+                        _velocidadeAtual = 0;
+                    }
+                    else
+                    {
+                        _velocidadeAtual -= 5;
+                    }
+                }
+
+                Console.WriteLine($"Parada geral realizada - Velocidade atual = {_velocidadeAtual}");
+            };
+        }
+
         public override void Ligar()
         {
             if (!_ligado && _freio)
@@ -71,6 +107,19 @@ namespace AbstractCSharp
             }
         }
 
+        public override void Desligar()
+        {
+            if (_ligado)
+            {
+                _ligado = false;
+                Console.WriteLine("Carro desligado");
+            }
+            else
+            {
+                Console.WriteLine("Carro já esta desligado");
+            }
+        }
+
         public override void SetVelocidadeAtual(bool acelerar)
         {
             int velDefault = 10;
@@ -85,5 +134,29 @@ namespace AbstractCSharp
                 Console.WriteLine("Carro está desligado");
             }
         }
+
+        public void PararEDesligarGeral()
+        {
+            if (_ligado)
+            {
+                PararGeral += () => { Desligar(); };
+            }
+            PararGeral();
+        }
+
+
+        private void AcionarFreio()
+        {
+            if (!_freio)
+            {
+                _freio = true;
+                Console.WriteLine("Freio acionado");
+            }
+            else
+            {
+                Console.WriteLine("Freio já acionado");
+            }
+        }
+
     }
 }
