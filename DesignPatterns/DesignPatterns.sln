@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{FCAEA672-AD39-4074-A8D5-1DEE598A7DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{EADC1C27-FA4B-4317-B6E4-4062465C6B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{6B46A359-946C-4CFC-AC02-07D6B68566AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{98E77B2E-5A2F-458B-918E-45082EE5D1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{88926AE5-9F27-48B9-8F9D-503BE8B2D4FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B46A359-946C-4CFC-AC02-07D6B68566AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B46A359-946C-4CFC-AC02-07D6B68566AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B46A359-946C-4CFC-AC02-07D6B68566AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B46A359-946C-4CFC-AC02-07D6B68566AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88926AE5-9F27-48B9-8F9D-503BE8B2D4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88926AE5-9F27-48B9-8F9D-503BE8B2D4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88926AE5-9F27-48B9-8F9D-503BE8B2D4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88926AE5-9F27-48B9-8F9D-503BE8B2D4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EADC1C27-FA4B-4317-B6E4-4062465C6B83} = {FCAEA672-AD39-4074-A8D5-1DEE598A7DD2}
+		{6B46A359-946C-4CFC-AC02-07D6B68566AC} = {EADC1C27-FA4B-4317-B6E4-4062465C6B83}
+		{98E77B2E-5A2F-458B-918E-45082EE5D1A7} = {FCAEA672-AD39-4074-A8D5-1DEE598A7DD2}
+		{88926AE5-9F27-48B9-8F9D-503BE8B2D4FB} = {98E77B2E-5A2F-458B-918E-45082EE5D1A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C2E3692-5A00-49E1-82FA-005510130C64}
+	EndGlobalSection
+EndGlobal

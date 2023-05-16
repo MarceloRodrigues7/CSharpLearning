@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TjWMFpL2schu5RCUDC4jBSG5Q+abxo7yjJzJCJArFJx8HDSF6HZsa9xuCXqHYy0MQn8NEhPwOh0Bt2kexECPOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marcelo\\source\\repos\\CSharpLearning\\DesignPatterns\\Singleton\\Singleton.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marcelo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
